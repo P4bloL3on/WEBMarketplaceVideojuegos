@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Neruda Games</title>
+    <link rel="stylesheet" type="text/css" href="../estilos/bootstrap.min.css">
+    <link rel="stylesheet" href="../estilos/busqueda.css">
+</head>
+
+<body>
+    <!-- ***** cabecera ***** -->
+    <header class="cabecera">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="../vista/home.php" class="logo">Neruda<em> Games</em></a>
+                        <!-- ***** Logo End ***** -->
+                        
+                        <ul class="nav">
+                            <form action="../controlador/buscador.php" method="get" >
+                                <span class="material-icons">
+                                    search
+                                </span>
+                                <input type="text" name="busqueda" id="buscador" placeholder="Buscar...">
+                                
+                            </form>
+                            <li class="scroll-to-section"><a href="home.php" class="active">Inicio</a></li>
+                            <li class="scroll-to-section"><a href="#features">Juegos</a></li>
+                            <li class="scroll-to-section"><a href="#our-classes">Lo mas vendido</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contacto</a></li> 
+                            <li class="main-button"><a href="../controlador/logout.php">Cerrar Sesion</a></li>
+                        </ul>        
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+</body>
+</html>

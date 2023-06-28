@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+body{
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #7a7a7a;
+}
+
+/*Buscador*/
+
+#buscador{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(35,45,57) !important;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #ffffff;
+    padding-left: 45px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#buscador:hover{
+    background-color: rgb(44, 56, 71);
+}
+
+.material-icons {
+    position: relative;
+    right: 90%;
+    top: 25%;
+    color: #63717f;
+}
+
+.cabecera {
+    background-color: rgba(35,45,57) !important;
+    height: 80px !important;
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.cabecera .logo,
+.cabecera .main-nav .nav li a {
+    color: #ffffff !important;
+}
+
+header.cabecera div.row {   
+    width: 120%;
+}
+
+.cabecera .main-nav .nav li:last-child a {
+    color: #fff !important;
+}
+
+.cabecera .main-nav .nav li:last-child a:hover {
+    color: #fff !important;
+}
+
+.cabecera .main-nav .nav li:hover a {
+    color: #ed563b !important;
+}
+
+.cabecera .nav li a.active {
+    color: #ed563b !important;
+}
+
+
+
+.cabecera .main-nav {
+    min-height: 80px;
+}
+
+.cabecera .main-nav .logo {
+    line-height: 80px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    float: left;
+
+}
+
+.cabecera .main-nav .logo em {
+    font-style: normal;
+    color: #ed563b;
+    font-weight: 900;
+}
+
+.cabecera .main-nav .nav {
+    float: right;
+    margin-top: 27px;
+    margin-right: 0px;
+    position: relative;
+    z-index: 999;
+}
+
+.cabecera .main-nav .nav li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cabecera .main-nav .nav li a {
+    display: block;
+    font-weight: 500;
+    font-size: 13px;
+    color: #7a7a7a;
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.cabecera .main-nav .nav li a {
+    color: #fff;
+}
+
+.cabecera .main-nav .nav li:last-child a {
+    display: inline-block;
+    font-size: 13px;
+    padding: 11px 17px;
+    background-color: #ed563b;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    height: auto;
+    line-height: 20px;
+}
+
+.cabecera .main-nav .nav li:last-child a:hover {
+    background-color: #f9735b;
+    opacity: 1;
+}
+
+.cabecera .main-nav .nav li:hover a,
+.cabecera .main-nav .nav li a.active {
+    color: #ed563b !important;
+    opacity: 1;
+}
+
+.cabecera .main-nav .nav li:hover a,
+.cabecera .main-nav .nav li a.active {
+    color: #ed563b !important;
+    opacity: 1;
+}
+
+
+/**/
+
+.feature-item {
+    float: left;
+    padding: 2%;
+}
+
+.feature-item .left-icon img {
+    float: left;
+    width: 210px;
+}
+
+.feature-item .right-content {
+    display: inline;
+}
+
+.feature-item .right-content h4 {
+    margin-top: 0px;
+    margin-bottom: 7px;
+    letter-spacing: 0.25px;
+    color: #5a5a5a;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.feature-item .right-content a.text-button {
+    margin-top: 7px;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ed563b;
+    font-weight: 500;
+}
